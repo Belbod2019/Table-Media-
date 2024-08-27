@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me (Media)</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="table.html">Courses</a></li>
+            <li><a href="index.html">About Me (Media)</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h1>About Me</h1>
+        <p>This page showcases various media elements to create a powerful message about myself.</p>
+        <picture>
+            <source srcset="image-small.jpg" media="(max-width: 600px)">
+            <source srcset="medium.jpeg" media="(max-width: 1200px)">
+            <img src="namee.jpeg" alt="A photograph of myself">
+        </picture>
+        <video controls>
+            <source src="video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <audio controls>
+            <source src="cardinal.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </section>
+</body>
+</html>
